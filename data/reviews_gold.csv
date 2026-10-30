@@ -1,0 +1,69 @@
+id,split,brand,location,rating,text,sentiment,aspects,flags
+R01,dev,restaurant,Malviya Nagar,5,"Dal baati churma was fantastic and the staff, especially Rakesh, took great care of our family. Will come again!",positive,quality:pos|staff:pos,
+R02,dev,restaurant,C-Scheme,1,"Waited 55 minutes for a simple thali. Nobody bothered to update us and the waiter was rude when we asked.",negative,wait_time:neg|staff:neg,
+R03,test,restaurant,Vaishali Nagar,4,"Good food, a bit pricey for the portion size though. Ambience is lovely.",mixed,quality:pos|price:neg|ambience:pos,
+R04,dev,restaurant,Mansarovar,2,"Food was cold and the table was sticky. Manager did not even apologise.",negative,quality:neg|cleanliness:neg|staff:neg,
+R05,dev,restaurant,Malviya Nagar,1,"My son was hospitalised after eating the paneer here last night. Food poisoning for sure. I am going to file a complaint with the food safety department.",negative,quality:neg|safety:neg,health_safety|legal_threat
+R06,test,restaurant,C-Scheme,5,"Best laal maas in Jaipur, zabardast taste! Staff was very polite.",positive,quality:pos|staff:pos,
+R07,dev,restaurant,Vaishali Nagar,3,"Average. Nothing special, nothing terrible. Parking is a hassle.",neutral,access:neg,
+R08,dev,restaurant,Mansarovar,1,"Charged me twice on UPI and then refused to refund. These people are cheats. I will take you to consumer court if money is not back in 3 days.",negative,billing:neg|staff:neg,fraud_billing|legal_threat
+R09,test,restaurant,Malviya Nagar,4,"Loved the ambience and the live music. Service was a bit slow on the weekend but worth it.",positive,ambience:pos|wait_time:neg,
+R10,dev,restaurant,C-Scheme,1,"Found a hair in my dal. Disgusting. Never coming back. Hygiene is zero.",negative,quality:neg|cleanliness:neg,
+R11,dev,restaurant,Vaishali Nagar,5,"Mast jagah hai yaar, khana ekdum tasty aur service bhi fast.",positive,quality:pos|staff:pos|wait_time:pos,
+R12,test,restaurant,Mansarovar,2,"Khana thanda tha aur waiter ne attitude dikhaya. Paisa wasool nahi hai.",negative,quality:neg|staff:neg|price:neg,
+R13,dev,restaurant,Malviya Nagar,1,"Staff made derogatory remarks about our family because we are from outside Rajasthan. Absolutely humiliating. Will post this on Instagram and tag everyone.",negative,staff:neg,discrimination_harassment|viral_press
+R14,dev,restaurant,C-Scheme,5,"Great place for family dinners. Clean, quick service and reasonable prices.",positive,cleanliness:pos|wait_time:pos|price:pos,
+R15,test,restaurant,Vaishali Nagar,1,"Terrible experience.",negative,,
+R16,dev,restaurant,Mansarovar,3,"Okay food. Had to wait 20 mins but the staff was apologetic and gave complimentary lassi.",neutral,quality:neu|wait_time:neg|staff:pos,
+R17,dev,restaurant,Malviya Nagar,5,"Wow, what a fantastic way to spend two hours waiting for cold food. 10/10 would not recommend, definitely.",negative,wait_time:neg|quality:neg,
+R18,test,restaurant,C-Scheme,4,"Kids loved the pasta. Washrooms could be cleaner though.",positive,quality:pos|cleanliness:neg,
+R19,dev,restaurant,Vaishali Nagar,2,"Overpriced. 450 for a tiny paneer tikka. Not worth it.",negative,price:neg,
+R20,dev,restaurant,Mansarovar,5,"Birthday party hosted here, manager Neha arranged everything perfectly. Thank you team!",positive,staff:pos,
+R21,test,restaurant,Malviya Nagar,1,"Bill had 5% service charge added without telling us and when we objected they were very arrogant. Feels like a scam.",negative,billing:neg|staff:neg,fraud_billing
+R22,dev,restaurant,C-Scheme,3,"Decent biryani but the AC was not working so it was very hot inside.",mixed,quality:pos|ambience:neg,
+R23,dev,restaurant,Vaishali Nagar,5,"Hands down the best kachori in the city. Crispy, fresh and the chutney is amazing.",positive,quality:pos,
+R24,test,restaurant,Mansarovar,1,"Got severe stomach pain and vomiting after eating the chicken. Had to visit ER. Pathetic.",negative,quality:neg|safety:neg,health_safety
+R25,dev,restaurant,Malviya Nagar,4,"Nice food and polite staff. Valet parking made it easy.",positive,quality:pos|staff:pos|access:pos,
+R26,dev,restaurant,C-Scheme,2,"Ordered through the app, delivery took 90 minutes and the food arrived spilled.",negative,wait_time:neg|quality:neg,
+R27,test,restaurant,Vaishali Nagar,5,"Absolutely love this place! Everything from the paneer lababdar to the service was perfect. The owner even came to greet us.",positive,quality:pos|staff:pos,
+R28,dev,restaurant,Mansarovar,1,"Worst place ever. Do not go.",negative,,
+R29,dev,restaurant,Malviya Nagar,3,"Food is okay, service is okay. Nothing to complain about.",neutral,quality:neu|staff:neu,
+R30,test,restaurant,C-Scheme,5,"Ordered catering for 40 people for our office event, the food was on time, hot and everyone loved it. Highly recommend for bulk orders.",positive,quality:pos|wait_time:pos,
+R31,dev,restaurant,Vaishali Nagar,1,"My wife is allergic to nuts, we told the waiter clearly but the dish still had cashews. She had a reaction and we had to rush to a doctor. This could have been fatal. We are consulting our lawyer.",negative,staff:neg|safety:neg,health_safety|legal_threat
+R32,dev,restaurant,Mansarovar,4,"Tasty food, will visit again. Wish they had more vegan options.",positive,quality:pos,
+R33,test,restaurant,Malviya Nagar,2,"Place is dirty, flies everywhere near the buffet counter.",negative,cleanliness:neg,
+R34,dev,restaurant,C-Scheme,5,"Staff recognised us from last visit and remembered our order. Such a personal touch!",positive,staff:pos,
+R35,dev,restaurant,Vaishali Nagar,1,"Manager shouted at my elderly mother in front of everyone. Will make sure everyone on Twitter and local news channels know about this.",negative,staff:neg,viral_press
+R36,test,restaurant,Mansarovar,3,"Prices have gone up recently. Taste is still good though.",mixed,price:neg|quality:pos,
+R37,dev,restaurant,Malviya Nagar,5,"Ekdum badhiya! Dal bati aur churma ka jawab nahi. Staff bhi bahut friendly.",positive,quality:pos|staff:pos,
+R38,dev,restaurant,C-Scheme,2,"Booked a table for 8 via phone, reservation was lost and we were made to wait 40 minutes standing.",negative,staff:neg|wait_time:neg,
+R39,test,restaurant,Vaishali Nagar,4,"Good experience overall. Clean place and quick service.",positive,cleanliness:pos|wait_time:pos,
+R40,dev,restaurant,Mansarovar,1,"They leaked my phone number. I started getting spam calls right after I gave it for the reservation.",negative,,privacy
+R41,dev,restaurant,Malviya Nagar,5,"Fantastic experience, will recommend to friends.",positive,,
+R42,test,restaurant,C-Scheme,1,"Seriously, avoid. Found a cockroach in the washroom and the waiter laughed it off.",negative,cleanliness:neg|staff:neg,
+R43,dev,restaurant,Vaishali Nagar,4,"Loved the thali. Not too heavy and very fresh. Service could be faster.",positive,quality:pos|wait_time:neg,
+R44,dev,restaurant,Mansarovar,2,"Music was too loud, couldn't hold a conversation. Food was fine.",mixed,ambience:neg|quality:pos,
+R45,test,restaurant,Malviya Nagar,5,"Amazing service by Priya, she handled our large group so patiently.",positive,staff:pos,
+R46,dev,restaurant,C-Scheme,1,"Rate 1 star because rating below that isn't possible. They sold me expired packaged dessert, date was printed two weeks ago. Reporting to FSSAI.",negative,quality:neg,health_safety|legal_threat
+C01,dev,clinic,Mansarovar,5,"Dr. Mehta explained everything clearly and the staff was very caring. Highly recommended.",positive,quality:pos|staff:pos,
+C02,dev,clinic,Jagatpura,2,"Waited 1.5 hours even with an appointment. Reception had no clue.",negative,wait_time:neg|staff:neg,
+C03,test,clinic,Mansarovar,1,"The doctor misdiagnosed my father and prescribed the wrong medicine. His condition got worse and we had to admit him elsewhere. We will take legal action against this clinic.",negative,quality:neg,health_safety|legal_threat
+C04,dev,clinic,Jagatpura,4,"Clean clinic, friendly receptionist, but billing took forever.",mixed,cleanliness:pos|staff:pos|billing:neg,
+C05,dev,clinic,Mansarovar,5,"Bahut achha ilaaj, doctor sahab ne time diya aur sab samjhaya.",positive,quality:pos|staff:pos,
+C06,test,clinic,Jagatpura,1,"They charged 1500 for a consultation which was advertised as 500. Cheating patients.",negative,billing:neg|price:neg,fraud_billing
+C07,dev,clinic,Mansarovar,3,"Consultation was fine but the waiting area is cramped.",mixed,quality:pos|ambience:neg,
+C08,dev,clinic,Jagatpura,5,"Brought my daughter for a vaccination, nurse was so gentle. Thank you!",positive,staff:pos,
+C09,test,clinic,Mansarovar,1,"Receptionist shared my test report with someone else without my consent. This is a serious privacy violation.",negative,staff:neg,privacy
+C10,dev,clinic,Jagatpura,2,"Fees are too high compared to other clinics nearby.",negative,price:neg,
+C11,dev,clinic,Mansarovar,4,"Quick appointment and efficient staff. Parking is limited.",positive,wait_time:pos|staff:pos|access:neg,
+C12,test,clinic,Jagatpura,1,"I was treated badly because of my religion by the staff. Disgusting behaviour.",negative,staff:neg,discrimination_harassment
+C13,dev,clinic,Mansarovar,5,"Very hygienic, doctor patient and thorough.",positive,cleanliness:pos|staff:pos,
+C14,dev,clinic,Jagatpura,1,"Injection site is infected and swollen after the nurse gave me the shot. Needing antibiotics now. Pathetic hygiene.",negative,cleanliness:neg|safety:neg,health_safety
+C15,test,clinic,Mansarovar,3,"Average experience. Doctor was ok.",neutral,quality:neu,
+C16,dev,clinic,Jagatpura,5,"Lab results were ready in 2 hours, so convenient.",positive,wait_time:pos,
+C17,dev,clinic,Mansarovar,2,"Booking system is confusing and the website kept crashing.",negative,access:neg,
+C18,test,clinic,Jagatpura,1,"I will go to the media and tell everybody how this clinic treats patients.",negative,,viral_press
+C19,dev,clinic,Mansarovar,4,"Satisfied with the treatment. Staff could be more welcoming.",positive,quality:pos|staff:neg,
+C20,dev,clinic,Jagatpura,5,"Thank you Dr. Sharma, my back pain has improved a lot after the physiotherapy sessions!",positive,quality:pos,
+C21,test,clinic,Mansarovar,1,"Waste of money.",negative,price:neg,
+C22,dev,clinic,Jagatpura,5,"Rated 5 but the staff really should learn manners, so rude to everyone.",negative,staff:neg,
