@@ -1,0 +1,26 @@
+{
+  "restaurant": {
+    "name": "Spice Route Kitchen",
+    "industry": "hospitality",
+    "signoff": "Team Spice Route Kitchen",
+    "contact_email": "guestcare@spiceroutekitchen.example",
+    "contact_phone": "0141-000-0000",
+    "manager_role": "our outlet manager",
+    "manager_role_hi": "hamare outlet manager",
+    "competitors": ["Rival Bites", "Curry Corner"],
+    "allow_compensation_language": false,
+    "voice": "Warm, concise, plain English. Mirrors Hinglish when the guest writes in Hinglish."
+  },
+  "clinic": {
+    "name": "CarePoint Clinic",
+    "industry": "healthcare",
+    "signoff": "Team CarePoint Clinic",
+    "contact_email": "patientcare@carepointclinic.example",
+    "contact_phone": "0141-111-0000",
+    "manager_role": "our clinic manager",
+    "manager_role_hi": "hamare clinic manager",
+    "competitors": ["Rival Health"],
+    "allow_compensation_language": false,
+    "voice": "Calm, respectful, never confirms that a reviewer is a patient and never discusses clinical details in public."
+  }
+}
