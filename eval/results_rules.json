@@ -1,0 +1,398 @@
+{
+  "dev": {
+    "n": 46,
+    "sentiment": {
+      "pipeline": {
+        "accuracy": 0.957,
+        "macro_f1": 0.875
+      },
+      "stars_only": {
+        "accuracy": 0.87,
+        "macro_f1": 0.65
+      }
+    },
+    "aspects": {
+      "precision": 0.869,
+      "recall": 0.936,
+      "f1": 0.901,
+      "polarity_accuracy_on_matched": 0.877
+    },
+    "flags": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "per_flag": {
+        "discrimination_harassment": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "fraud_billing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "health_safety": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "legal_threat": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "privacy": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "viral_press": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        }
+      }
+    },
+    "escalation": {
+      "pipeline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "missed": 0,
+        "workload_pct_of_reviews": 17.4,
+        "gold_positives": 8
+      },
+      "stars_only": {
+        "precision": 0.421,
+        "recall": 1.0,
+        "f1": 0.593,
+        "missed": 0,
+        "workload_pct_of_reviews": 41.3,
+        "gold_positives": 8
+      }
+    },
+    "automation": {
+      "pipeline": {
+        "auto_publish_pct": 41.3,
+        "unsafe_auto_publishes": 0
+      },
+      "stars_only": {
+        "auto_publish_pct": 47.8,
+        "unsafe_auto_publishes": 2
+      },
+      "actions": {
+        "auto_publish": 19,
+        "quick_review": 19,
+        "escalate": 8
+      }
+    },
+    "guardrails": {
+      "draft_pass_rate": 1.0,
+      "violations": {},
+      "warnings": {}
+    }
+  },
+  "test": {
+    "n": 22,
+    "sentiment": {
+      "pipeline": {
+        "accuracy": 0.955,
+        "macro_f1": 0.9
+      },
+      "stars_only": {
+        "accuracy": 0.909,
+        "macro_f1": 0.65
+      }
+    },
+    "aspects": {
+      "precision": 0.943,
+      "recall": 0.943,
+      "f1": 0.943,
+      "polarity_accuracy_on_matched": 0.909
+    },
+    "flags": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "per_flag": {
+        "discrimination_harassment": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "fraud_billing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        },
+        "health_safety": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        },
+        "legal_threat": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "privacy": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "viral_press": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        }
+      }
+    },
+    "escalation": {
+      "pipeline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "missed": 0,
+        "workload_pct_of_reviews": 31.8,
+        "gold_positives": 7
+      },
+      "stars_only": {
+        "precision": 0.583,
+        "recall": 1.0,
+        "f1": 0.737,
+        "missed": 0,
+        "workload_pct_of_reviews": 54.5,
+        "gold_positives": 7
+      }
+    },
+    "automation": {
+      "pipeline": {
+        "auto_publish_pct": 36.4,
+        "unsafe_auto_publishes": 0
+      },
+      "stars_only": {
+        "auto_publish_pct": 36.4,
+        "unsafe_auto_publishes": 0
+      },
+      "actions": {
+        "auto_publish": 8,
+        "quick_review": 7,
+        "escalate": 7
+      }
+    },
+    "guardrails": {
+      "draft_pass_rate": 1.0,
+      "violations": {},
+      "warnings": {}
+    }
+  },
+  "all": {
+    "n": 68,
+    "sentiment": {
+      "pipeline": {
+        "accuracy": 0.956,
+        "macro_f1": 0.881
+      },
+      "stars_only": {
+        "accuracy": 0.882,
+        "macro_f1": 0.652
+      }
+    },
+    "aspects": {
+      "precision": 0.891,
+      "recall": 0.938,
+      "f1": 0.914,
+      "polarity_accuracy_on_matched": 0.887
+    },
+    "flags": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "per_flag": {
+        "discrimination_harassment": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        },
+        "fraud_billing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "health_safety": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 6
+        },
+        "legal_threat": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5
+        },
+        "privacy": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        },
+        "viral_press": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        }
+      }
+    },
+    "escalation": {
+      "pipeline": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "missed": 0,
+        "workload_pct_of_reviews": 22.1,
+        "gold_positives": 15
+      },
+      "stars_only": {
+        "precision": 0.484,
+        "recall": 1.0,
+        "f1": 0.652,
+        "missed": 0,
+        "workload_pct_of_reviews": 45.6,
+        "gold_positives": 15
+      }
+    },
+    "automation": {
+      "pipeline": {
+        "auto_publish_pct": 39.7,
+        "unsafe_auto_publishes": 0
+      },
+      "stars_only": {
+        "auto_publish_pct": 44.1,
+        "unsafe_auto_publishes": 2
+      },
+      "actions": {
+        "auto_publish": 27,
+        "quick_review": 26,
+        "escalate": 15
+      }
+    },
+    "guardrails": {
+      "draft_pass_rate": 1.0,
+      "violations": {},
+      "warnings": {}
+    }
+  },
+  "stress": {
+    "n": 14,
+    "sentiment": {
+      "pipeline": {
+        "accuracy": 0.786,
+        "macro_f1": 0.886
+      },
+      "stars_only": {
+        "accuracy": 0.571,
+        "macro_f1": 0.46
+      }
+    },
+    "aspects": {
+      "precision": 0.833,
+      "recall": 0.75,
+      "f1": 0.789,
+      "polarity_accuracy_on_matched": 0.533
+    },
+    "flags": {
+      "precision": 1.0,
+      "recall": 0.556,
+      "f1": 0.714,
+      "per_flag": {
+        "discrimination_harassment": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "fraud_billing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1
+        },
+        "health_safety": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "support": 4
+        },
+        "legal_threat": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "support": 2
+        },
+        "viral_press": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "escalation": {
+      "pipeline": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.667,
+        "missed": 4,
+        "workload_pct_of_reviews": 28.6,
+        "gold_positives": 8
+      },
+      "stars_only": {
+        "precision": 0.8,
+        "recall": 0.5,
+        "f1": 0.615,
+        "missed": 4,
+        "workload_pct_of_reviews": 35.7,
+        "gold_positives": 8
+      }
+    },
+    "automation": {
+      "pipeline": {
+        "auto_publish_pct": 21.4,
+        "unsafe_auto_publishes": 1
+      },
+      "stars_only": {
+        "auto_publish_pct": 42.9,
+        "unsafe_auto_publishes": 3
+      },
+      "actions": {
+        "quick_review": 7,
+        "auto_publish": 3,
+        "escalate": 4
+      }
+    },
+    "guardrails": {
+      "draft_pass_rate": 1.0,
+      "violations": {},
+      "warnings": {
+        "native_script_reply_needs_llm_or_human": 1
+      }
+    }
+  }
+}

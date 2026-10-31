@@ -1,0 +1,10 @@
+id,split,text,rating,gold_sentiment,pred_sentiment,gold_flags,pred_flags,rationale
+R44,dev,"Music was too loud, couldn't hold a conversation. Food was fine.",2,mixed,negative,,,text polarity; +0.0/-1.5
+C07,dev,Consultation was fine but the waiting area is cramped.,3,mixed,neutral,,,"lukewarm wording, small net polarity; +0.0/-1.0"
+R03,test,"Good food, a bit pricey for the portion size though. Ambience is lovely.",4,mixed,positive,,,text polarity; +2.0/-0.5
+S01,stress,Honestly the food made my kid very sick last night and I am thinking of consulting someone about this.,3,negative,neutral,health_safety,,rating prior (little textual signal); +0.0/-0.0
+S02,stress,"Not going to call a lawyer or anything, but the wait was way too long.",3,negative,neutral,,,rating prior (little textual signal); +0.0/-0.0
+S04,stress,Khana kharab tha aur waiter ne bhi bad-tameezi ki. Vakeel se baat karunga main.,1,negative,negative,legal_threat,,text polarity; +0.0/-1.0
+S05,stress,"Great, another two hour wait for lukewarm food. Love it.",5,negative,positive,,,text polarity; +3.0/-0.0
+S06,stress,"fod poisning at this place, never agian",1,negative,negative,health_safety,,rating prior (little textual signal); +0.0/-0.0
+S08,stress,Rude manager. I will be sharing my experience with my 50k followers.,2,negative,negative,viral_press,,text polarity; +0.0/-1.0
