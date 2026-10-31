@@ -58,7 +58,7 @@ Why not the others first: #2 is strategically interesting (Studio is the flagshi
 | Reply "specificity" and human edit rate | Avoid templated feel | edit rate < 30% |
 | Response rate across all reviews | Consumers prefer full coverage | > 90% |
 
-**Illustrative economics (assumptions, not data).** A 10-outlet brand receiving 40 reviews per outlet per month = 400 replies. At ~3 minutes each, manual replying is ~20 hours/month. If 40% can be auto-published (our offline test share, on a tiny set) and the rest drafted for quick review at ~1 minute, effort falls to roughly 7 hours/month, before any benefit from faster replies or earlier crisis detection. Cynbit should validate these inputs with 2-3 pilot clients.
+**Illustrative economics (assumptions, not data).** A 10-outlet brand receiving 40 reviews per outlet per month = 400 replies. At ~3 minutes each, manual replying is ~20 hours/month. If 40% can be auto-published (our offline test share, on a tiny set) and the rest drafted for quick review at ~1 minute, effort falls to roughly 4 hours/month (240 replies x 1 minute), before any benefit from faster replies or earlier crisis detection. Cynbit should validate these inputs with 2-3 pilot clients.
 
 **Rollout.** Weeks 1-2: ingest and label 500+ real reviews from pilot clients; baseline today's Revio. Weeks 3-4: hybrid LLM + rules with the evaluation harness as the release gate. Weeks 5-6: human-in-the-loop pilot with approve/edit logging. Week 7+: tune thresholds from edit data; decide auto-publish scope per client.
 
